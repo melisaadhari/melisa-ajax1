@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>Soal2.html </title>
+<head>
+<script> function loadXMLDoc() {
+	var xmlhttp; 
+	if (window.XMLHttpRequest) {//code utk IE7+,Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest ();
+	} else { ///code untuk IEE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	xmlhttp.onreadystatechange=function(){
+		if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+			document.getElementById("isi").innerHTML=xmlhttp.responseText;
+
+		}
+	}
+	xmlhttp.open("GET","Soal1.xml", true);
+	xmlhttp.send();
+}
+</script>
+</head>
+<body>
+	<div id="isi">
+		<h2>DAFTAR NAMA MAHASISWA</h2></div>
+		<button type="button" onclick="loadXMLDoc()">Lihat</button>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<title>DAFTAR NAMA MAHASISWA </title>
+<table>
+	<tr>
+		<td>Nama</td>
+		<td>NIM</td>
+		<td>Kelas</td>
+	</tr>
+
+	<tr>
+		<td>Melisa Adhari</td>
+		<td>1755301039</td>
+		<td>1TIC</td>
+	</tr>
+		<tr>
+		<td>Cristin</td>
+		<td>1744301078</td>
+		<td>1TIC</td>
+	</tr>
+	<tr>
+		<td>Petrus Rynanson S</td>
+		<td>1755301069</td>
+		<td>1TIC</td>
+	</tr>
+	<tr>
+		<td>Arif Nurrahman</td>
+		<td>1755301008</td>
+		<td>1TIC</td>
+	</tr>
+</table>
